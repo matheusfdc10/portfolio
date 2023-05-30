@@ -25,9 +25,8 @@ const MyLink: React.FC<MyLinkProps> = ({
                 text-xs
                 sm:text-sm
                 font-semibold
-                px-5
+                p-3
                 sm:px-7
-                py-3
                 hover:text-zinc-950
                 hover:bg-sky-300
                 hover:font-extrabold
