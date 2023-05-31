@@ -26,7 +26,7 @@ const Header = () => {
 
     return (
         <>
-            <header className={`${isMaxTop ? 'bg-dark-2' : `bg-neutral-950/70 ${isOpenNavbar ? 'md:backdrop-blur-3xl' : 'backdrop-blur-3xl'}`} fixed w-full h-20 top-0 z-50`}>
+            <header className={`${isMaxTop ? 'bg-dark-2' : `bg-neutral-950/70 shadow-neutral-950 shadow-lg ${isOpenNavbar ? 'md:backdrop-blur-3xl' : 'backdrop-blur-3xl'}`} fixed w-full h-20 top-0 z-50`}>
                 <div className="
                     max-w-[1440px] 
                     mx-auto 

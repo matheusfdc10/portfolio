@@ -1,31 +1,68 @@
 import Container from "./Container"
-import { DiReact } from 'react-icons/di'
+import { DiReact, DiJavascript, DiCss3, DiHtml5, DiNodejs, } from 'react-icons/di'
+import { SiStyledcomponents, SiPrisma, SiMongodb, SiTailwindcss, SiExpress, SiNestjs } from 'react-icons/si'
+import { TbBrandNextjs,  } from 'react-icons/tb'
 
 const list = [
     {
-        title: 'React',
+        title: 'JavaScript',
+        description: 'O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.',
+        icon: <DiJavascript size={120} />,
+    },
+    {
+        title: 'CSS3',
+        description: 'O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.',
+        icon: <DiCss3 size={120} />,
+    },
+    {
+        title: 'HTML5',
+        description: 'O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.',
+        icon: <DiHtml5 size={120} />,
+    },
+    {
+        title: 'Node.JS',
+        description: 'O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.',
+        icon: <DiNodejs size={120} />,
+    },
+    {
+        title: 'ReactJS',
         description: 'O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.',
         icon: <DiReact size={120} />,
     },
     {
-        title: 'React',
+        title: 'NextJS',
         description: 'O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.',
-        icon: <DiReact size={120} />,
+        icon: <TbBrandNextjs size={120} />,
     },
     {
-        title: 'React',
+        title: 'TailwindCSS',
         description: 'O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.',
-        icon: <DiReact size={120} />,
+        icon: <SiTailwindcss size={120} />,
     },
     {
-        title: 'React',
-        description: 'O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.',
-        icon: <DiReact size={120} />,
+        title: 'Styled-Components',
+        description: 'O Styled Components é uma biblioteca do React e do React Native que nos permite criar componentes de estilo ao escrever códigos CSS dentro de um arquivo JavaScript.',
+        icon: <SiStyledcomponents size={120} />,
     },
     {
-        title: 'React',
+        title: 'Express',
         description: 'O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.',
-        icon: <DiReact size={120} />,
+        icon: <SiExpress size={120} />,
+    },
+    {
+        title: 'NestJS',
+        description: 'O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.',
+        icon: <SiNestjs size={120} />,
+    },
+    {
+        title: 'Prisma',
+        description: 'O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.',
+        icon: <SiPrisma size={120} />,
+    },
+    {
+        title: 'MongoDB',
+        description: 'O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.',
+        icon: <SiMongodb size={120} />,
     },
 ]
 
@@ -39,9 +76,9 @@ const Knowledge = () => {
                 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-12  
             ">
                 {list.map((item, index) => (
-                    <div key={index} className="bg-dark-1 p-6 flex flex-col items-center gap-3 rounded-lg shadow-zinc-950 shadow-xl transition-all hover:bg-dark-0">
+                    <div key={index} title={item.title} className="bg-dark-1 p-6 flex flex-col items-center gap-3 rounded-lg shadow-zinc-950 shadow-xl transition-all hover:bg-dark-0">
                         {item.icon}
-                        <h3 className="text-center text-3xl font-medium text-zinc-50">
+                        <h3 className="text-center text-2xl font-semibold text-zinc-50">
                             {item.title}
                         </h3>
                         <p className="text-zinc-400 break-all">

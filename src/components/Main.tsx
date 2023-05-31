@@ -17,7 +17,7 @@ const Main = () => {
                         Matheus Freitas
                     </h1>
                     <h2 className="font-bold sm:text-2xl text-lg text-zinc-400">
-                        Densenvolvedor web front-end.
+                        Desenvolvedor web front-end.
                     </h2>
                     <div className="flex gap-6 mt-6">
                         <MyLink 

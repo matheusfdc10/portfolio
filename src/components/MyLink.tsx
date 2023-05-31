@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { IconType } from "react-icons/lib/esm/iconBase";
 
 interface MyLinkProps {
-    text: string;
+    text?: string;
     href: string;
     textCenter?: boolean;
     icon?: IconType;
@@ -23,6 +23,7 @@ const MyLink: React.FC<MyLinkProps> = ({
             {site ? (
                 <Link 
                     href={href}
+                    target='_blank'
                     className={`
                         text-sky-300
                         bg-transparent
