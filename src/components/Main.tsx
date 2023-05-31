@@ -3,7 +3,6 @@ import Container from "./Container";
 import Image from "next/image";
 import imagePlanet from "../../public/image/planet.gif"
 import Button from "./Button";
-import Link from "next/link";
 import MyLink from "./MyLink";
 
 const Main = () => {
@@ -22,7 +21,7 @@ const Main = () => {
                     </h2>
                     <div className="flex gap-6 mt-6">
                         <MyLink 
-                            href="#contact"
+                            href="contact"
                             text="FALE COMIGO"
                             textCenter
                         />
@@ -34,7 +33,7 @@ const Main = () => {
                 </div>
                 <div className="lg:place-self-center flex flex-col items-center gap-3 px-6 transition-all hover:transform-1">
                     <Image src={imagePlanet} alt="image" width={400} height={400}/>
-                    <div className="w-full max-w-xs h-9 bg-black rounded-[100%]" />
+                    <div className="w-full max-w-xs h-9 bg-neutral-950 rounded-[100%]" />
                 </div>
             </div>
         </Container>

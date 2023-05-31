@@ -2,6 +2,33 @@ import Image from "next/image";
 import Container from "./Container"
 import image from '../../public/image/img-airbnb.png'
 
+const list = [
+    {
+        title: 'Clone do Airbnb',
+        image: image,
+        description: 'Clone do Airbnb com Next.js e Typescript',
+        topics: ['React', 'NextJS', 'Typescript', 'TailwindCSS', 'Prisma', 'MongoDB' ]
+    },
+    {
+        title: 'Clone do Airbnb',
+        image: image,
+        description: 'Clone do Airbnb com Next.js e Typescript',
+        topics: ['React', 'NextJS', 'Typescript', 'TailwindCSS', 'Prisma', 'MongoDB' ]
+    },
+    {
+        title: 'Clone do Airbnb',
+        image: image,
+        description: 'Clone do Airbnb com Next.js e Typescript',
+        topics: ['React', 'NextJS', 'Typescript', 'TailwindCSS', 'Prisma', 'MongoDB' ]
+    },
+    {
+        title: 'Clone do Airbnb',
+        image: image,
+        description: 'Clone do Airbnb com Next.js e Typescript',
+        topics: ['React', 'NextJS', 'Typescript', 'TailwindCSS', 'Prisma', 'MongoDB' ]
+    },
+]
+
 const Project = () => {
     return (
         <Container id="project">
@@ -11,19 +38,30 @@ const Project = () => {
             <div className="
                 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-8  
             ">
-                <div className="bg-dark-2 p-6 flex flex-col items-center gap-3 rounded-lg shadow-zinc-950 shadow-lg transition-all hover:transform-1">
-                    <Image
-                        alt="imge"
-                        src={image}
-                        className="w-full"
-                    />
-                    <p className="text-lg text-center text-zinc-50 break-all">
-                        Clone do Airbnb
-                    </p>
-                    <span className="text-center text-zinc-400">
-                        HTML - CSS - JS - NodeJS - Express
-                    </span>
-                </div>
+                {list.map((item, index) => (
+                    <div key={index} className="bg-dark-2 p-6 flex flex-col items-center gap-3 rounded-lg shadow-zinc-950 shadow-lg transition-all hover:transform-1">
+                        <Image
+                            alt="imge"
+                            src={item.image}
+                            className="w-full"
+                        />
+                        <p className="text-lg text-center text-zinc-50 break-all">
+                            {item.title}
+                        </p>
+                        <span className="text-center text-zinc-400">
+                            {item.topics.map((topic) => {
+                                if (item.topics[0] === topic) {
+                                    return (
+                                        `${topic}`
+                                    )
+                                }
+                                return (
+                                    ` | ${topic}`
+                                )
+                            })}
+                        </span>
+                    </div>
+                ))}
             </div>
         </Container>
     )

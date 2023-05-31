@@ -24,6 +24,7 @@ const Textarea: React.FC<TextareaProps> = ({
             <textarea
                 id={id}
                 disabled={disable}
+                autoComplete={id}
                 {...register(id, { required, onChange(e) {
                     if(e.target) {
                         e.target.style.height = '100px';
@@ -45,7 +46,7 @@ const Textarea: React.FC<TextareaProps> = ({
                     disabled:cursor-not-allowed
                     overflow-hidden
                     ${errors[0] ? 'border-rose-500' : 'border-sky-300'}
-                    ${errors[0] ? 'focus:border-rose-500' : 'focus:border-sky-600'}
+                    ${errors[0] ? 'focus:border-rose-500' : 'focus:border-sky-600 focus:bg-dark-0'}
                 `}
             />
             <label

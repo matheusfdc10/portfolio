@@ -1,4 +1,5 @@
-import Link from "next/link";
+'use client'
+import { Link } from 'react-scroll/modules'
 import Navbar from "./Navbar";
 
 const Header = () => {
@@ -15,8 +16,8 @@ const Header = () => {
                 sm:px-8
                 text-sky-500
             ">
-                <Link href="/">
-                    <h1 className="font-extrabold text-2xl transition-all hover:text-sky-300 hover:transform-1">
+                <Link to='main' spy={true} smooth={true} duration={500}>
+                    <h1 className="font-extrabold text-2xl transition-all hover:text-sky-300 hover:transform-1 cursor-pointer">
                         Portfólio
                     </h1>
                 </Link>

@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const About = () => {
     return (
-        <Container id="about" heightFull>
-            <div className="grid lg:grid-cols-2 h-full grid-cols-1 items-center justify-items-center gap-12">
+        <Container id="about" >
+            <div className="grid lg:grid-cols-2 h-full grid-cols-1 items-center justify-items-center gap-12 sm:pt-8">
                 <Image
                     alt="image"
                     src="https://github.com/matheusfdc10.png"

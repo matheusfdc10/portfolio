@@ -24,9 +24,10 @@ const Button: React.FC<ButtonProps> = ({
             disabled={disabled}
             className={`                
                 text-sky-300
+                bg-transparent
                 border-2
                 border-sky-300
-                text-xs
+                text-sm
                 sm:text-sm
                 font-semibold
                 px-5

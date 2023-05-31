@@ -92,8 +92,8 @@ const Contact = () => {
     return (
         <>
             <ToastContainer position='top-center' theme='dark'/>
-            <Container id="contact" bg heightFull>
-                <div className="grid lg:grid-cols-3 h-full grid-cols-1 items-center justify-items-center lg:gap-16 gap-y-24">
+            <Container id="contact" bg>
+                <div className="grid lg:grid-cols-3 h-full grid-cols-1 items-center justify-items-center  lg:gap-16 gap-y-24">
                     <div className="col-span-2 w-full">
                         <h2 className="text-4xl text-sky-300 font-bold mb-12 self-end">
                             Fale comigo!
@@ -148,6 +148,7 @@ const Contact = () => {
                                 text={contact.title}
                                 icon={contact.icon}
                                 href={contact.href}
+                                site
                             />
                         ))}
                     </div>

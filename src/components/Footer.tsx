@@ -2,7 +2,7 @@ import {FaMapMarkerAlt} from 'react-icons/fa'
 
 const Footer = () => {
     return (
-        <footer className="h-[18vh] grid border-t-2 border-zinc-300 gap-1">
+        <footer className="grid border-t-2 border-zinc-400 gap-1 sm:text-base text-xs py-6">
             <p className="text-center self-end text-zinc-100">
                 Feito com 💙 por Matheus Freitas 
             </p>
