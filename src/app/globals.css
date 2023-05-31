@@ -38,11 +38,5 @@ select:-webkit-autofill {
   }
   .bg-dark-2 {
     background-color: #121212;
-  },
-  .bg-dark-3 {
-    background-color: rgba(0 0 0 / 0.5);
-  },
-  .transform-1 {
-    transform: scale(1.1);
   }
 }

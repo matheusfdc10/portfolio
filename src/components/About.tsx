@@ -10,7 +10,7 @@ const About = () => {
                     src="https://github.com/matheusfdc10.png"
                     width={350}
                     height={350}
-                    className="rounded-[50%] shadow-2xl transform transition-all hover:transform-1"
+                    className="rounded-[50%] shadow-2xl transform transition-all hover:scale-105"
                     style={{ boxShadow: '0 0 2rem black'}}
                 />
                 <div className="-order-1 lg:order-1">

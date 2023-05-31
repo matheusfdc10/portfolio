@@ -1,8 +1,9 @@
 'use client'
-import { Link } from 'react-scroll'
+import { Link } from 'react-scroll/modules'
 import { FiMenu } from 'react-icons/fi'
 import { IoCloseSharp } from 'react-icons/io5'
-import { useState } from 'react'
+import { Dispatch, SetStateAction } from 'react'
+import ContactLiks from './ContactLiks'
 
 const links = [
     {
@@ -23,8 +24,12 @@ const links = [
     },
 ]
 
-const Navbar = () => {
-    const [isOpen, setIsOpen] = useState(false)
+interface NavProps {
+    isOpen?: boolean;
+    setIsOpen: Dispatch<SetStateAction<boolean>>;
+}
+
+const Navbar:React.FC<NavProps> = ({ isOpen, setIsOpen }) => {
 
     return (
         <>
@@ -34,8 +39,8 @@ const Navbar = () => {
                 onClick={() => setIsOpen(true)}
             />
             <nav className={`
-                h-full ${isOpen ? 'block' : 'hidden'} md:block md:static md:bg-transparent md:bottom-auto md:right-auto md:left-auto md:p-0
-                fixed bg-dark-2 bottom-0 right-0 left-0 p-8
+                h-full ${isOpen ? 'block backdrop-blur-0 z-auto' : 'hidden'} md:block md:static md:bg-transparent md:bottom-auto md:right-auto md:left-auto md:p-0
+                fixed bg-dark-2 bottom-0 right-0 left-0 p-8 transition-all
             `}>
                 <IoCloseSharp 
                     size={40} 
@@ -48,13 +53,15 @@ const Navbar = () => {
                     {links.map((link) => (
                         <li
                             key={link.title}
-                            className="hover:text-sky-300 transition-all hover:transform-1 cursor-pointer"
-                            
+                            className="hover:text-sky-300 transition-all cursor-pointer hover:scale-110"
                         >
-                            <Link to={link.href} onClick={() => setIsOpen(false)} spy={true} smooth={true} duration={500}>{link.title}</Link>
+                            <Link activeClass='text-sky-300 scale-110' to={link.href} onClick={() => setIsOpen(false)} spy={true} smooth={true} duration={500}>{link.title}</Link>
                             {/* <hr className="" /> */}
                         </li>
                     ))}
+                    <div className='block md:hidden absolute bottom-8'>
+                        <ContactLiks />
+                    </div>
                 </ul>
             </nav>
         </>

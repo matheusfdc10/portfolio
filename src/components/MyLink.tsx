@@ -37,8 +37,8 @@ const MyLink: React.FC<MyLinkProps> = ({
                         hover:bg-sky-300
                         hover:font-extrabold
                         transition-all
-                        hover:scale-x-[1.02]
-                        active:scale-x-100
+                        hover:scale-[1.02]
+                        active:scale-100
                         whitespace-nowrap
                         flex
                         items-center
@@ -70,8 +70,8 @@ const MyLink: React.FC<MyLinkProps> = ({
                         hover:bg-sky-300
                         hover:font-extrabold
                         transition-all
-                        hover:scale-x-[1.02]
-                        active:scale-x-100
+                        hover:scale-[1.02]
+                        active:scale-100
                         whitespace-nowrap
                         flex
                         items-center

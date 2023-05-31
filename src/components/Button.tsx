@@ -37,13 +37,14 @@ const Button: React.FC<ButtonProps> = ({
                 hover:bg-sky-300
                 hover:font-extrabold
                 transition-all
-                hover:scale-x-[1.02]
-                active:scale-x-100
+                hover:scale-[1.02]
+                active:scale-100
                 whitespace-nowrap
                 flex
                 items-center
                 gap-3
                 ${start ? 'text-start' : 'text-center'}
+                ${disabled && 'cursor-not-allowed'}
             `}
         >
             {disabled && <FaSpinner size={20} className='animate-spin transition-all'/>}

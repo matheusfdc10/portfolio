@@ -7,38 +7,13 @@ import Textarea from "./inputs/Textarea";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-import { BsGithub, BsLinkedin } from 'react-icons/bs'
-import { IoLogoWhatsapp } from 'react-icons/io'
-import { MdEmail } from 'react-icons/md'
-import MyLink from "./MyLink";
 import { useState } from "react";
 import { FieldValues, useForm } from "react-hook-form";
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify'
 
 import { useRef } from 'react';
-export const listContact = [
-    {
-        title: 'GitHub',
-        href: 'https://github.com/matheusfdc10',
-        icon: BsGithub
-    },
-    {
-        title: 'Linkedin',
-        href: 'https://www.linkedin.com/in/matheusfdc10/',
-        icon: BsLinkedin
-    },
-    {
-        title: 'WhatsApp',
-        href: 'https://wa.me/5521997341766',
-        icon: IoLogoWhatsapp
-    },
-    {
-        title: 'Email',
-        href: 'mailto: matheusfdc10@hotmail.com',
-        icon: MdEmail
-    }
-]
+import ContactLiks from "./ContactLiks";
 
 export type FormProps = {
     name: string;
@@ -141,17 +116,7 @@ const Contact = () => {
                             </div>
                         </form>
                     </div>
-                    <div className="w-full grid lg:grid-cols-1 md:grid-cols-4 sm:grid-cols-2 grid-cols-2  gap-6">
-                        {listContact.map((contact) => (
-                            <MyLink
-                                key={contact.title}
-                                text={contact.title}
-                                icon={contact.icon}
-                                href={contact.href}
-                                site
-                            />
-                        ))}
-                    </div>
+                    <ContactLiks />
                 </div>
             </Container>
         </>

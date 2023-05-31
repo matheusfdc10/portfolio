@@ -36,7 +36,7 @@ const Knowledge = () => {
                 Conhecimentos
             </h2>
             <div className="
-                grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-8  
+                grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-12  
             ">
                 {list.map((item, index) => (
                     <div key={index} className="bg-dark-1 p-6 flex flex-col items-center gap-3 rounded-lg shadow-zinc-950 shadow-xl transition-all hover:bg-dark-0">
