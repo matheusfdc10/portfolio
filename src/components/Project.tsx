@@ -68,6 +68,14 @@ const list = [
         topics: ['ReactJS', 'Styled-Components', 'Express', 'JWT', 'BcryptJS', 'Multer', 'MongoDB']
     },
     {
+        title: 'AluraTube',
+        image: 'img-aluratube.png',
+        description: '',
+        urlGithub: 'https://github.com/matheusfdc10/aluratube',
+        urlSite: 'https://aluratube-gamma-virid.vercel.app/',
+        topics: ['ReactJS', 'NextJS', 'Styled-Components', 'Supabase']
+    },
+    {
         title: 'Desfazer e refazer',
         image: 'img-desfazer.png',
         description: '',
