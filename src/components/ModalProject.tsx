@@ -30,7 +30,7 @@ const ModalProject: React.FC<ModalProjectProps> = ({
                 </h3>
                 <Image
                     width={1000} 
-                    height={1000}
+                    height={500}
                     alt='image'
                     src={`/images/${data.image}`}
                     className="w-full group-hover:opacity-75 transition-all shadow-zinc-950 shadow-md"
