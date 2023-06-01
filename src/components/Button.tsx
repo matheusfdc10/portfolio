@@ -40,6 +40,8 @@ const Button: React.FC<ButtonProps> = ({
                 hover:scale-[1.02]
                 active:scale-100
                 whitespace-nowrap
+                shadow-zinc-950
+                shadow-sm
                 flex
                 items-center
                 gap-3

@@ -45,6 +45,8 @@ const Textarea: React.FC<TextareaProps> = ({
                     disabled:opacity-70
                     disabled:cursor-not-allowed
                     overflow-hidden
+                    shadow-zinc-950
+                    shadow-sm
                     ${disable && 'cursor-not-allowed'}
                     ${errors[0] ? 'border-rose-500' : 'border-sky-300'}
                     ${errors[0] ? 'focus:border-rose-500' : 'focus:border-sky-600 focus:bg-dark-0'}
