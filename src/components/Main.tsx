@@ -1,7 +1,7 @@
 'use client'
 import Container from "./Container";
 import Image from "next/image";
-import imagePlanet from "../../public/image/planet.gif"
+import imagePlanet from "../../public/images/planet.gif"
 import Button from "./Button";
 import MyLink from "./MyLink";
 

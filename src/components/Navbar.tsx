@@ -55,8 +55,9 @@ const Navbar:React.FC<NavProps> = ({ isOpen, setIsOpen }) => {
                             key={link.title}
                             className="hover:text-sky-300 transition-all cursor-pointer hover:scale-110"
                         >
-                            <Link activeClass='text-sky-300 scale-110' to={link.href} onClick={() => setIsOpen(false)} spy={true} smooth={true} duration={500}>{link.title}</Link>
-                            {/* <hr className="" /> */}
+                            <Link activeClass='text-sky-300 scale-110' to={link.href} onClick={() => setIsOpen(false)} spy={true} smooth={true} duration={500}>
+                                {link.title}
+                            </Link>
                         </li>
                     ))}
                     <div className='block md:hidden absolute bottom-8'>

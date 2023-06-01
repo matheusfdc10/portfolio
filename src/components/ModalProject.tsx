@@ -25,15 +25,17 @@ const ModalProject: React.FC<ModalProjectProps> = ({
             onClose={onClose}
         >   
             <div className="flex flex-col items-center gap-6 mt-8">
-                <h3 className="sm:text-3xl text-2xl font-semibold">
+                <h3 className="sm:text-3xl text-2xl font-semibold text-center">
                     {data.title}
                 </h3>
                 <Image
-                    alt="image"
-                    src={data.image}
+                    width={400} 
+                    height={400}
+                    alt='image'
+                    src={`/images/${data.image}`}
                     className="w-full group-hover:opacity-75 transition-all shadow-zinc-950 shadow-md"
                 />
-                <span className="text-center text-zinc-400">
+                <span className="text-center text-zinc-300">
                     {data.topics.map((topic) => {
                         if (data.topics[0] === topic) {
                             return (
@@ -45,11 +47,12 @@ const ModalProject: React.FC<ModalProjectProps> = ({
                         )
                     })}
                 </span>
-                <div className='flex gap-4'>
+                <div className={`grid ${data.urlSite && 'grid-cols-2'}  gap-4`}>
                     <MyLink
                         text="GitHub"
                         href={data.urlGithub}
                         icon={BsGithub}
+                        textCenter
                         site
                     />
                     {data.urlSite && (
@@ -57,6 +60,7 @@ const ModalProject: React.FC<ModalProjectProps> = ({
                             text="Site"
                             href={data.urlSite}
                             icon={AiFillEye}
+                            textCenter
                             site
                         />
                     )}

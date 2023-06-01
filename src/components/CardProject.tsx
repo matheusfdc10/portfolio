@@ -8,7 +8,7 @@ import ModalProject from "./ModalProject";
 
 export type ProjectType = {
     title: string;
-    image: StaticImageData;
+    image: string;
     description: string;
     urlGithub: string;
     urlSite: string;
@@ -37,13 +37,14 @@ const CardProject: React.FC<CardProjectProps> = ({
             >
                 <div className="aspect-auto relative shadow-zinc-950 shadow-md">
                     <Image
+                        width={400} 
+                        height={400}
                         alt="imge"
-                        src={data.image}
+                        src={`/images/${data.image}`}
                         className="w-full group-hover:opacity-75 transition-all"
                     />
                     <div className="group-hover:sm:block hidden absolute z-auto w-full h-full top-0 transition-all">
                         <div className="flex gap-3 justify-center items-center h-full">
-
                             <a href={data.urlGithub} target="_blank">
                                 <div
                                     title="GitHub"

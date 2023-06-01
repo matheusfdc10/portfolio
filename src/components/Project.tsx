@@ -1,12 +1,19 @@
 
 import Container from "./Container"
-import image from '../../public/image/img-airbnb.png'
 import CardProject from "./CardProject";
 
 const list = [
     {
         title: 'Clone do Airbnb',
-        image: image,
+        image: 'img-airbnb.png',
+        description: 'Clone do Airbnb com Next.js e Typescript',
+        urlGithub: 'https://github.com/matheusfdc10/airbnb-next-mongodb',
+        urlSite: '',
+        topics: ['ReactJS', 'NextJS', 'Typescript', 'TailwindCSS', 'Prisma', 'MongoDB' ]
+    },
+    {
+        title: 'Clone do Airbnb',
+        image: 'img-airbnb.png',
         description: 'Clone do Airbnb com Next.js e Typescript',
         urlGithub: 'https://github.com/matheusfdc10/airbnb-next-mongodb',
         urlSite: 'https://airbnb-next-mongodb.vercel.app/',
@@ -14,7 +21,7 @@ const list = [
     },
     {
         title: 'Clone do Airbnb',
-        image: image,
+        image: 'img-airbnb.png',
         description: 'Clone do Airbnb com Next.js e Typescript',
         urlGithub: 'https://github.com/matheusfdc10/airbnb-next-mongodb',
         urlSite: 'https://airbnb-next-mongodb.vercel.app/',
@@ -22,15 +29,7 @@ const list = [
     },
     {
         title: 'Clone do Airbnb',
-        image: image,
-        description: 'Clone do Airbnb com Next.js e Typescript',
-        urlGithub: 'https://github.com/matheusfdc10/airbnb-next-mongodb',
-        urlSite: 'https://airbnb-next-mongodb.vercel.app/',
-        topics: ['ReactJS', 'NextJS', 'Typescript', 'TailwindCSS', 'Prisma', 'MongoDB' ]
-    },
-    {
-        title: 'Clone do Airbnb',
-        image: image,
+        image: 'img-airbnb.png',
         description: 'Clone do Airbnb com Next.js e Typescript',
         urlGithub: 'https://github.com/matheusfdc10/airbnb-next-mongodb',
         urlSite: 'https://airbnb-next-mongodb.vercel.app/',
