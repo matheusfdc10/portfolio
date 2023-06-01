@@ -8,7 +8,7 @@ import CardKnowledge from "./CardKnowledge"
 const list = [
     {
         title: 'JavaScript',
-        description: 'JavaScript é uma linguagem de programação dinâmica e versátil que permite adicionar interatividade e funcionalidades a sites e aplicativos. Ela é executada no navegador do usuário e pode manipular elementos da página, responder a eventos, realizar validações de formulários e muito mais. Com o JavaScript, é possível criar experiências de usuário dinâmicas e interativas. Além disso, o JavaScript também é utilizado no desenvolvimento de aplicativos móveis e servidores, proporcionando flexibilidade e poder para desenvolvedores.',
+        description: 'JavaScript é uma linguagem de programação dinâmica e versátil que permite adicionar interatividade e funcionalidades a sites e aplicativos. Ela é executada no navegador do usuário e pode manipular elementos da página, responder a eventos, realizar validações de formulários e muito mais. Com o JavaScript, é possível criar experiências de usuário dinâmicas e interativas. Além disso, o JavaScript também é utilizado no desenvolvimento de aplicativos móveis e servidores.',
         icon: DiJavascript,
     },
     {
@@ -48,17 +48,17 @@ const list = [
     },
     {
         title: 'Express',
-        description: 'Express é um framework web minimalista e flexível para Node.js. Ele fornece uma camada de abstração sobre o HTTP, facilitando o desenvolvimento de aplicativos web e APIs.',
+        description: 'Express é um framework popular e altamente versátil para o desenvolvimento de aplicativos web e APIs usando Node.js. Sua principal vantagem é a capacidade de construir rapidamente aplicativos escaláveis, aproveitando sua sintaxe simples e uma camada de middleware poderosa.',
         icon: SiExpress,
     },
     {
         title: 'NestJS',
-        description: 'NestJS é um framework de desenvolvimento de aplicativos em Node.js que combina elementos do paradigma de programação orientada a objetos (POO), programação funcional e programação reativa. Ele oferece uma arquitetura escalável e modular, inspirada no Angular, e é amplamente utilizado para criar aplicativos web robustos e escaláveis.',
+        description: 'NestJS é um framework de desenvolvimento de aplicativos Node.js construído com base no conceito de arquitetura de aplicativos server-side (backend) em camadas. Ele oferece uma abordagem modular e escalável para a construção de aplicativos web robustos e escaláveis.',
         icon: SiNestjs,
     },
     {
         title: 'Prisma',
-        description: 'Prisma é uma ferramenta de mapeamento objeto-relacional (ORM) moderna e poderosa para o desenvolvimento de aplicativos back-end. Ela simplifica a interação com o banco de dados e agiliza o processo de desenvolvimento, permitindo que os desenvolvedores trabalhem com bancos de dados de forma mais intuitiva.',
+        description: 'Prisma é uma ferramenta de desenvolvimento de banco de dados que simplifica a interação com bancos de dados e acelera o desenvolvimento de aplicativos. Com seu ORM moderno, suporte a várias bases de dados, geração automática de modelos de dados e recursos avançados.',
         icon: SiPrisma,
     },
     {

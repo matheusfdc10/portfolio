@@ -1,9 +1,8 @@
 'use client'
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import { useState } from "react";
 import { AiFillEye } from 'react-icons/ai'
 import { BsGithub } from 'react-icons/bs'
-import ModalKnowledge from "./ModalKnowledge";
 import ModalProject from "./ModalProject";
 
 export type ProjectType = {
