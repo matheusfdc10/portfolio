@@ -29,8 +29,8 @@ const ModalProject: React.FC<ModalProjectProps> = ({
                     {data.title}
                 </h3>
                 <Image
-                    width={400} 
-                    height={400}
+                    width={1000} 
+                    height={1000}
                     alt='image'
                     src={`/images/${data.image}`}
                     className="w-full group-hover:opacity-75 transition-all shadow-zinc-950 shadow-md"
@@ -57,7 +57,7 @@ const ModalProject: React.FC<ModalProjectProps> = ({
                     />
                     {data.urlSite && (
                         <MyLink
-                            text="Site"
+                            text="Ver site"
                             href={data.urlSite}
                             icon={AiFillEye}
                             textCenter

@@ -32,12 +32,12 @@ const CardProject: React.FC<CardProjectProps> = ({
             />
             <div 
                 onClick={() => setIsOpen(true)}
-                className="group bg-dark-2 p-6 flex flex-col items-center gap-3 rounded-lg place-content-center shadow-zinc-950 shadow-lg transition-all hover:scale-105 cursor-pointer"
+                className="group bg-dark-2 p-6 flex flex-col items-center gap-3 rounded-lg shadow-zinc-950 shadow-lg transition-all hover:scale-105 cursor-pointer"
             >
                 <div className="aspect-auto relative shadow-zinc-950 shadow-md">
                     <Image
-                        width={400} 
-                        height={400}
+                        width={500} 
+                        height={500}
                         alt="imge"
                         src={`/images/${data.image}`}
                         className="w-full group-hover:opacity-75 transition-all"

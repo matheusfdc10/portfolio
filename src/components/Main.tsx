@@ -25,15 +25,17 @@ const Main = () => {
                             text="FALE COMIGO"
                             textCenter
                         />
-                        <Button
-                            onClick={() => {}}
+                        <MyLink 
+                            href="https://drive.google.com/file/d/1XxJih1FFNsVLTRUFrMi5d6V3l-nwrxJV/view?usp=sharing"
                             text="BAIXAR CV"
+                            textCenter
+                            site
                         />
                     </div>
                 </div>
                 <div className="lg:place-self-center flex flex-col items-center gap-3 px-6 transition-all hover:scale-105">
-                    <Image src={imagePlanet} alt="image" width={400} height={400}/>
-                    <div className="w-full max-w-xs h-9 bg-neutral-950 rounded-[100%]" />
+                    <Image src={imagePlanet} alt="image" width={400} height={400} className="rounded-full shadow-md shadow-neutral-950"/>
+                    <div className="w-full max-w-xs h-9 bg-neutral-950 rounded-[100%] shadow-sm shadow-neutral-950" />
                 </div>
             </div>
         </Container>
