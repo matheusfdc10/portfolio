@@ -3,15 +3,14 @@ import Image from "next/image";
 
 const About = () => {
     return (
-        <Container id="about" >
-            <div className="grid lg:grid-cols-2 h-full grid-cols-1 items-center justify-items-center gap-12 sm:pt-8">
+        <section id="about" className='bg-dark-1 min-h-screen px-7 sm:px-12 pt-8 pb-20 grid'>
+            <div className='max-w-[1440px] m-auto mt-4 sm:mt-0 grid lg:grid-cols-2 h-full grid-cols-1 gap-12 content-center justify-items-center items-center'>
                 <Image
                     alt="image"
                     src="https://github.com/matheusfdc10.png"
-                    width={350}
-                    height={350}
-                    className="rounded-[50%] shadow-2xl transform transition-all hover:scale-105"
-                    style={{ boxShadow: '0 0 2rem black'}}
+                    width={400}
+                    height={400}
+                    className="rounded-[50%] shadow-2xl shadow-neutral-950 transform transition-all hover:scale-105"
                 />
                 <div className="-order-1 lg:order-1">
                     <h2 className="text-4xl text-sky-300 font-bold text-center lg:text-start">
@@ -22,7 +21,8 @@ const About = () => {
                     </p>
                 </div>
             </div>
-        </Container>
+        </section>
+        
     )
 }
 

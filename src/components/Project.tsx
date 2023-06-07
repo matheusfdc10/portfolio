@@ -44,7 +44,7 @@ const list = [
         topics: ['NextJS', 'CSS', 'API' ]
     },
     {
-        title: 'Biblioteca Ávore',
+        title: 'Biblioteca Árvore',
         image: 'img-biblioteca.png',
         description: '',
         urlGithub: 'https://github.com/matheusfdc10/biblioteca-react',
@@ -151,21 +151,23 @@ const list = [
 
 const Project = () => {
     return (
-        <Container id="project">
-            <h2 className="text-4xl text-sky-300 font-bold text-center mb-12 self-end">
-                Projetos
-            </h2>
-            <div className="
-                grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-12 transition-all
-            ">
-                {list.map((item, index) => (
-                    <CardProject
-                        key={`${item.title} - ${index}`}
-                        data={item}
-                    />
-                ))}
+        <section id="project" className='bg-dark-1 min-h-screen px-7 sm:px-12 pt-8 pb-20'>
+            <div className='max-w-[1440px] m-auto grid h-full grid-cols-1 gap-9'>
+                <h2 className="text-4xl text-sky-300 font-bold text-center sm:my-8 my-4 self-end">
+                    Projetos
+                </h2>
+                <div className="
+                    grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-12 transition-all
+                ">
+                    {list.map((item, index) => (
+                        <CardProject
+                            key={`${item.title} - ${index}`}
+                            data={item}
+                        />
+                    ))}
+                </div>
             </div>
-        </Container>
+        </section>
     )
 }
 

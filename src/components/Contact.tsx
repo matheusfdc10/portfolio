@@ -67,8 +67,8 @@ const Contact = () => {
     return (
         <>
             <ToastContainer position='top-center' theme='dark'/>
-            <Container id="contact" bg>
-                <div className="grid lg:grid-cols-3 h-full grid-cols-1 items-center justify-items-center  lg:gap-16 gap-y-24">
+            <section id="contact" className='bg-dark-2 min-h-screen px-7 sm:px-12 pt-8 pb-20 grid'>
+                <div className='max-w-[1440px] m-auto grid lg:grid-cols-3 h-full w-full grid-cols-1 items-center justify-items-center  lg:gap-16 gap-y-10 mb-20'>
                     <div className="col-span-2 w-full">
                         <h2 className="text-4xl text-sky-300 font-bold mb-12 self-end">
                             Fale comigo!
@@ -118,7 +118,7 @@ const Contact = () => {
                     </div>
                     <ContactLiks />
                 </div>
-            </Container>
+            </section>
         </>
     )
 }

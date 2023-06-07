@@ -1,14 +1,12 @@
 'use client'
-import Container from "./Container";
 import Image from "next/image";
 import imagePlanet from "../../public/images/planet.gif"
-import Button from "./Button";
 import MyLink from "./MyLink";
 
 const Main = () => {
     return (
-        <Container id="main" bg heightFull>
-            <div className="grid lg:grid-cols-2 h-full grid-cols-1 gap-12">
+        <section id="main" className='bg-dark-2 min-h-screen px-7 sm:px-12 pt-8 pb-20 grid'>
+            <div className='max-w-[1440px] m-auto mt-20 grid lg:grid-cols-2 h-full grid-cols-1 gap-12 w-full'>
                 <div className="self-end lg:self-center flex flex-col gap-3 sm:gap-4 items-center lg:items-start">
                     <span className="font-bold text-sky-300">
                         HELLO WORLD 👋
@@ -38,7 +36,7 @@ const Main = () => {
                     <div className="w-full max-w-xs h-9 bg-neutral-950 rounded-[100%] shadow-sm shadow-neutral-950" />
                 </div>
             </div>
-        </Container>
+        </section>
     )
 }
 

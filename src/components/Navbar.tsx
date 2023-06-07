@@ -55,7 +55,15 @@ const Navbar:React.FC<NavProps> = ({ isOpen, setIsOpen }) => {
                             key={link.title}
                             className="hover:text-sky-300 transition-all cursor-pointer hover:scale-110"
                         >
-                            <Link activeClass='text-sky-300 scale-110' to={link.href} onClick={() => setIsOpen(false)} spy={true} smooth={true} duration={500}>
+                            <Link 
+                                onClick={() => setIsOpen(false)} 
+                                activeClass='text-sky-300 scale-110' 
+                                to={link.href}
+                                offset={-80}
+                                spy={true} 
+                                smooth={true} 
+                                duration={500}
+                            >
                                 {link.title}
                             </Link>
                         </li>

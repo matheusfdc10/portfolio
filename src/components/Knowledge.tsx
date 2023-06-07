@@ -71,21 +71,23 @@ const list = [
 const Knowledge = () => {
 
     return (
-        <Container id="knowledge" bg>
-            <h2 className="text-4xl text-sky-300 font-bold text-center mb-12 self-end">
-                Conhecimentos
-            </h2>
-            <div className="
-                grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-12  
-            ">
-                {list.map((item, index) => (
-                    <CardKnowledge
-                        key={`${item.title} - ${index}`}
-                        data={item}
-                    />
-                ))}
+        <section id="knowledge" className='bg-dark-2 min-h-screen px-7 sm:px-12 pt-8 pb-20'>
+            <div className='max-w-[1440px] m-auto grid h-full grid-cols-1 gap-9'>
+                <h2 className="text-4xl text-sky-300 font-bold text-center sm:my-8 my-4 self-end">
+                    Conhecimentos
+                </h2>
+                <div className="
+                    grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-12  
+                ">
+                    {list.map((item, index) => (
+                        <CardKnowledge
+                            key={`${item.title} - ${index}`}
+                            data={item}
+                        />
+                    ))}
+                </div>
             </div>
-        </Container>
+        </section>
     )
 }
 
