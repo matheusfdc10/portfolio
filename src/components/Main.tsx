@@ -22,6 +22,7 @@ const Main = () => {
                             href="contact"
                             text="FALE COMIGO"
                             textCenter
+                            offset={-80}
                         />
                         <MyLink 
                             href="https://drive.google.com/file/d/1XxJih1FFNsVLTRUFrMi5d6V3l-nwrxJV/view?usp=sharing"

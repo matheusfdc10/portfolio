@@ -9,6 +9,7 @@ interface MyLinkProps {
     textCenter?: boolean;
     icon?: IconType;
     site?: boolean;
+    offset?: number;
 }
 
 const MyLink: React.FC<MyLinkProps> = ({
@@ -16,7 +17,8 @@ const MyLink: React.FC<MyLinkProps> = ({
     text,
     textCenter,
     icon: Icon,
-    site
+    site,
+    offset
 }) => {
     return (
         <>
@@ -55,7 +57,8 @@ const MyLink: React.FC<MyLinkProps> = ({
                 <Lk 
                     to={href}
                     spy={true}
-                    smooth={true} 
+                    smooth={true}
+                    offset={offset}
                     duration={500}
                     className={`
                         text-sky-300
