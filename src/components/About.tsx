@@ -1,9 +1,9 @@
-import Container from "./Container"
+
 import Image from "next/image";
 
 const About = () => {
     return (
-        <section id="about" className='bg-dark-1 min-h-screen px-7 sm:px-12 pt-8 pb-20 grid'>
+        <section id="about" className='bg-dark-1 min-h-[calc(100vh-5rem)] px-7 sm:px-12 pb-20 pt-16 lg:pt-20 grid'>
             <div className='max-w-[1440px] m-auto mt-4 sm:mt-0 grid lg:grid-cols-2 h-full grid-cols-1 gap-12 content-center justify-items-center items-center'>
                 <Image
                     alt="image"

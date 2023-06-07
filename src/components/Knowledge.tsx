@@ -1,5 +1,4 @@
 'use client'
-import Container from "./Container"
 import { DiReact, DiJavascript, DiCss3, DiHtml5, DiNodejs, } from 'react-icons/di'
 import { SiStyledcomponents, SiPrisma, SiMongodb, SiTailwindcss, SiExpress, SiNestjs } from 'react-icons/si'
 import { TbBrandNextjs,  } from 'react-icons/tb'
@@ -71,7 +70,7 @@ const list = [
 const Knowledge = () => {
 
     return (
-        <section id="knowledge" className='bg-dark-2 min-h-screen px-7 sm:px-12 pt-8 pb-20'>
+        <section id="knowledge" className='bg-dark-2 min-h-[calc(100vh-5rem)] px-7 sm:px-12 pt-8 pb-20'>
             <div className='max-w-[1440px] m-auto grid h-full grid-cols-1 gap-9'>
                 <h2 className="text-4xl text-sky-300 font-bold text-center sm:my-8 my-4 self-end">
                     Conhecimentos

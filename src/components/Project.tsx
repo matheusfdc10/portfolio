@@ -1,5 +1,3 @@
-
-import Container from "./Container"
 import CardProject from "./CardProject";
 
 const list = [
@@ -151,7 +149,7 @@ const list = [
 
 const Project = () => {
     return (
-        <section id="project" className='bg-dark-1 min-h-screen px-7 sm:px-12 pt-8 pb-20'>
+        <section id="project" className='bg-dark-1 min-h-[calc(100vh-5rem)] px-7 sm:px-12 pt-8 pb-20'>
             <div className='max-w-[1440px] m-auto grid h-full grid-cols-1 gap-9'>
                 <h2 className="text-4xl text-sky-300 font-bold text-center sm:my-8 my-4 self-end">
                     Projetos
