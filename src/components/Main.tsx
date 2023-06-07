@@ -6,7 +6,7 @@ import MyLink from "./MyLink";
 const Main = () => {
     return (
         <section id="main" className='bg-dark-2 min-h-screen px-7 sm:px-12 pt-8 pb-20 grid'>
-            <div className='max-w-[1440px] m-auto mt-20 grid lg:grid-cols-2 h-full grid-cols-1 gap-12 w-full'>
+            <div className='max-w-[1440px] m-auto mt-12 lg:mt-20 grid lg:grid-cols-2 h-full grid-cols-1 gap-12 w-full'>
                 <div className="self-end lg:self-center flex flex-col gap-3 sm:gap-4 items-center lg:items-start">
                     <span className="font-bold text-sky-300">
                         HELLO WORLD 👋
