@@ -2,6 +2,30 @@ import CardProject from "./CardProject";
 
 const list = [
     {
+        title: 'E-commerce Store',
+        image: 'img-ecommerce-store.png',
+        description: '',
+        urlGithub: 'https://github.com/matheusfdc10/ecommerce-store',
+        urlSite: 'https://ecommerce-store-nu-weld.vercel.app',
+        topics: ['ReactJS', 'NextJS', 'Typescript', 'TailwindCSS', 'API']
+    },
+    {
+        title: 'E-commerce Admin',
+        image: 'img-ecommerce-admin.png',
+        description: '',
+        urlGithub: 'https://github.com/matheusfdc10/ecommerce-admin',
+        urlSite: 'https://ecommerce-admin-ashy.vercel.app/',
+        topics: ['ReactJS', 'NextJS', 'Typescript', 'TailwindCSS', 'Prisma', 'MySQL']
+    },
+    {
+        title: 'Gênio | IA Saas',
+        image: 'img-ia-saas.png',
+        description: '',
+        urlGithub: 'https://github.com/matheusfdc10/ia-saas',
+        urlSite: 'https://genio-ia-saas.vercel.app',
+        topics: ['ReactJS', 'NextJS', 'Typescript', 'TailwindCSS', 'Prisma', 'Openai-api', 'MongoDB']
+    },
+    {
         title: 'Meu Portfólio',
         image: 'img-portfolio.png',
         description: '',
