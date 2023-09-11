@@ -35,7 +35,7 @@ const CardKnowledge: React.FC<CardKnowledge> = ({
                 <h3 className="text-center text-2xl font-semibold text-zinc-50">
                     {data.title}
                 </h3>
-                <p className="text-zinc-400 text-center break-all line-clamp-6">
+                <p className="text-zinc-400 text-justify line-clamp-6">
                     {data.description}
                 </p>
             </div>

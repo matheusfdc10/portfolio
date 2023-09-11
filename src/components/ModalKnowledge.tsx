@@ -29,7 +29,7 @@ const ModalKnowledge: React.FC<ModalKnowledgeProps> = ({
                 <h3 className="text-3xl font-semibold">
                     {data.title}
                 </h3>
-                <p className="text-zinc-50 text-base">
+                <p className="text-zinc-50 text-base text-justify">
                     {data.description}
                 </p>
             </div>
