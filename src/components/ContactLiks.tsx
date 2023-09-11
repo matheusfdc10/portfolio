@@ -16,7 +16,7 @@ const listContact = [
     },
     {
         title: 'WhatsApp',
-        href: 'https://wa.me/5521997341766',
+        href: 'https://api.whatsapp.com/send?phone=5521997341766',
         icon: IoLogoWhatsapp
     },
     {

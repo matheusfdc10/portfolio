@@ -2,6 +2,30 @@ import CardProject from "./CardProject";
 
 const list = [
     {
+        title: 'Cardápio digital',
+        image: 'img-cardapio-digital.png',
+        description: '',
+        urlGithub: 'https://github.com/matheusfdc10/cardapio-digital-menu',
+        urlSite: 'https://cardapio-digital-menu.vercel.app',
+        topics: ['ReactJS', 'NextJS', 'Typescript', 'TailwindCSS', 'API', 'Axios']
+    },
+    {
+        title: 'Cardápio digital Admin',
+        image: 'img-cardapio-digital-admin.png',
+        description: '',
+        urlGithub: 'https://github.com/matheusfdc10/cardapio-digital-admin',
+        urlSite: 'https://cardapio-digital-admin.vercel.app',
+        topics: ['ReactJS', 'NextJS', 'Typescript', 'TailwindCSS', 'API', 'Axios', 'MongoDB', 'Prisma']
+    },
+    {
+        title: 'Discord Clone',
+        image: 'img-discord.png',
+        description: '',
+        urlGithub: 'https://github.com/matheusfdc10/discord-clone',
+        urlSite: 'https://discord-clone-production-039e.up.railway.app',
+        topics: ['ReactJS', 'NextJS', 'Typescript', 'TailwindCSS', 'API', 'Prisma', "MongoDB", "Socket-io", "Chadcnui"]
+    },
+    {
         title: 'E-commerce Store',
         image: 'img-ecommerce-store.png',
         description: '',
