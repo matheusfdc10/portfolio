@@ -1,5 +1,6 @@
 'use client'
 import Image from "next/image";
+import TypewriterComponent from "typewriter-effect";
 import imagePlanet from "../../public/images/planet.gif"
 import MyLink from "./MyLink";
 
@@ -8,15 +9,27 @@ const Main = () => {
         <section id="main" className='bg-dark-2 min-h-screen px-7 sm:px-12 pt-8 pb-20 grid'>
             <div className='max-w-[1440px] m-auto mt-12 lg:mt-20 grid lg:grid-cols-2 h-full grid-cols-1 gap-12 w-full'>
                 <div className="self-end lg:self-center flex flex-col gap-3 sm:gap-4 items-center lg:items-start">
-                    <span className="font-bold text-sky-300">
-                        HELLO WORLD 👋
-                    </span>
+                    <div className="flex gap-2">
+                        <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-sky-300 to-sky-500">
+                            HELLO WORLD
+                        </span>
+                        👋
+                    </div>
                     <h1 className="font-bold sm:text-6xl text-4xl whitespace-nowrap text-zinc-50">
                         Matheus Freitas
                     </h1>
-                    <h2 className="font-bold sm:text-2xl text-lg text-zinc-400">
-                        Desenvolvedor web front-end.
-                    </h2>
+                    <div className="text-xl">
+                        <TypewriterComponent 
+                            options={{
+                                strings: [
+                                    "Desenvolvedor Web Front-end.",
+                                ],
+                                autoStart: true,
+                                loop: true,
+                                wrapperClassName: 'font-bold sm:text-2xl text-lg text-zinc-400'
+                            }}
+                        />
+                    </div>
                     <div className="flex gap-6 mt-6">
                         <MyLink 
                             href="contact"
