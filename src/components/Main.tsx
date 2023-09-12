@@ -10,7 +10,7 @@ const Main = () => {
             <div className='max-w-[1440px] m-auto mt-12 lg:mt-20 grid lg:grid-cols-2 h-full grid-cols-1 gap-12 w-full'>
                 <div className="self-end lg:self-center flex flex-col gap-3 sm:gap-4 items-center lg:items-start">
                     <div className="flex gap-2">
-                        <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-sky-300 to-sky-500">
+                        <span className="font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-sky-300 to-sky-500">
                             HELLO WORLD
                         </span>
                         👋
