@@ -22,7 +22,7 @@ const Main = () => {
                         <TypewriterComponent 
                             options={{
                                 strings: [
-                                    "Desenvolvedor Web Front-end.",
+                                    "Desenvolvedor Web.",
                                 ],
                                 autoStart: true,
                                 loop: true,
