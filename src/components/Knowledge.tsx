@@ -1,5 +1,5 @@
 'use client'
-import { DiReact, DiJavascript, DiCss3, DiHtml5, DiNodejs, } from 'react-icons/di'
+import { DiReact, DiJavascript, DiCss3, DiHtml5, DiNodejs, DiPython} from 'react-icons/di'
 import { SiStyledcomponents, SiPrisma, SiMongodb, SiTailwindcss, SiExpress, SiNestjs } from 'react-icons/si'
 import { TbBrandNextjs,  } from 'react-icons/tb'
 import CardKnowledge from "./CardKnowledge"
@@ -64,6 +64,11 @@ const list = [
         title: 'MongoDB',
         description: 'MongoDB é um banco de dados NoSQL flexível e escalável, que utiliza um modelo de dados baseado em documentos. Com sua capacidade de lidar com grandes volumes de dados, flexibilidade na modelagem e consulta de dados, além de recursos avançados de escalabilidade e recuperação de falhas, o MongoDB é amplamente utilizado para o armazenamento eficiente e a manipulação de dados em aplicativos modernos.',
         icon: SiMongodb,
+    },
+    {
+        title: 'Python',
+        description: 'Python é uma linguagem de programação de alto nível, interpretada e de fácil leitura, criada por Guido van Rossum. Destaca-se pela sintaxe clara, é multiplataforma, possui uma grande biblioteca padrão, suporta programação orientada a objetos e é amplamente utilizado em diversos domínios, como desenvolvimento web, automação, ciência de dados e inteligência artificial.',
+        icon: DiPython,
     },
 ]
 

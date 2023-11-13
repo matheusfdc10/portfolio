@@ -17,7 +17,7 @@ const About = () => {
                         Sobre
                     </h2>
                     <p className="text-base text-zinc-50 mt-8  text-justify">
-                        Sou um Desenvolvedor Front-end Júnior com amplo conhecimento em diversas tecnologias, incluindo ReactJS, NextJS, TailwindCSS, Styled-components, ExpressJS, NestJS, Prisma, MongoDB e outras. Sou formado em Análise e Desenvolvimento de Sistemas pela Universidade Estácio de Sá e estou constantemente aprimorando minhas habilidades. Meu objetivo é me tornar um desenvolvedor full stack, expandindo minha expertise para além do front-end. Estou sempre em busca de novos desafios e oportunidades para aprender e crescer profissionalmente.
+                        Sou um Desenvolvedor Front-end Júnior com amplo conhecimento em diversas tecnologias, incluindo ReactJS, NextJS, TailwindCSS, Styled-components, ExpressJS, NestJS, Prisma, MongoDB, Python e outras. Sou formado em Análise e Desenvolvimento de Sistemas pela Universidade Estácio de Sá e estou constantemente aprimorando minhas habilidades. Meu objetivo é me tornar um desenvolvedor full stack, expandindo minha expertise para além do front-end. Estou sempre em busca de novos desafios e oportunidades para aprender e crescer profissionalmente.
                     </p>
                 </div>
             </div>
