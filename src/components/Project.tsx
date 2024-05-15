@@ -2,6 +2,14 @@ import CardProject from "./CardProject";
 
 const list = [
     {
+        title: 'Lousa digital',
+        image: 'img-board.png',
+        description: '',
+        urlGithub: 'https://github.com/matheusfdc10/board',
+        urlSite: 'https://board-rho-gules.vercel.app',
+        topics: ['ReactJS', 'NextJS', 'Typescript', 'TailwindCSS', 'Convex', 'Liveblocks', 'Shadcn-ui', 'Clerk-auth']
+    },
+    {
         title: 'Cardápio digital',
         image: 'img-cardapio-digital.png',
         description: '',
