@@ -3,6 +3,14 @@ import CardProject from "./CardProject";
 
 const list = [
     {
+        title: 'Slack clone',
+        image: 'img-slack.png',
+        description: '',
+        urlGithub: 'https://github.com/matheusfdc10/slack-clone',
+        urlSite: 'https://slack-clone-alpha-tawny.vercel.app',
+        topics: ['NextJS', 'Typescript', 'TailwindCSS', 'Convex', 'Shadcn-ui']
+    },
+    {
         title: 'Lousa digital',
         image: 'img-board.png',
         description: '',
