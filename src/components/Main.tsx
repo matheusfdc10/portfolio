@@ -38,7 +38,7 @@ const Main = () => {
                             offset={-80}
                         />
                         <MyLink 
-                            href="https://drive.google.com/file/d/1XxJih1FFNsVLTRUFrMi5d6V3l-nwrxJV/view?usp=sharing"
+                            href="https://1drv.ms/b/s!AgcDC1PWsXabgt0f2KR7DmWRHoJTAQ?e=JMLQla"
                             text="BAIXAR CV"
                             textCenter
                             site
