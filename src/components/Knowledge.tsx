@@ -1,7 +1,8 @@
 'use client'
 import { DiReact, DiJavascript, DiCss3, DiHtml5, DiNodejs, DiPython} from 'react-icons/di'
-import { SiStyledcomponents, SiPrisma, SiMongodb, SiTailwindcss, SiExpress, SiNestjs } from 'react-icons/si'
-import { TbBrandNextjs,  } from 'react-icons/tb'
+import { SiPostgresql, SiStyledcomponents, SiPrisma, SiMongodb, SiTailwindcss, SiExpress, SiNestjs } from 'react-icons/si'
+import { TbBrandNextjs } from 'react-icons/tb';
+import { FaAngular } from "react-icons/fa";
 import CardKnowledge from "./CardKnowledge"
 
 const list = [
@@ -36,6 +37,11 @@ const list = [
         icon: TbBrandNextjs,
     },
     {
+        title: 'Angular',
+        description: 'O Angular é um framework de desenvolvimento front-end open-source criado e mantido pelo Google, usado para criar aplicações web dinâmicas e de alto desempenho. Ele é baseado em TypeScript, uma linguagem de programação que adiciona tipagem estática ao JavaScript, tornando o desenvolvimento mais seguro e organizado. O Angular é amplamente utilizado para construir Single Page Applications (SPAs), nas quais o conteúdo é carregado de forma dinâmica, proporcionando uma experiência de usuário rápida e fluida.',
+        icon: FaAngular,
+    },
+    {
         title: 'TailwindCSS',
         description: 'Tailwind CSS é um framework de design utilitário que fornece classes CSS prontas para uso, permitindo criar interfaces de usuário responsivas e personalizáveis de forma rápida e eficiente. Com sua abordagem modular e flexível, o Tailwind CSS simplifica a estilização de projetos, resultando em um código CSS mais conciso e fácil de manter.',
         icon: SiTailwindcss,
@@ -60,10 +66,20 @@ const list = [
         description: 'Prisma é uma ferramenta de desenvolvimento de banco de dados que simplifica a interação com bancos de dados e acelera o desenvolvimento de aplicativos. Com seu ORM moderno, suporte a várias bases de dados, geração automática de modelos de dados e recursos avançados.',
         icon: SiPrisma,
     },
+    // {
+    //     title: 'TypeORM',
+    //     description: 'TypeORM é uma poderosa biblioteca de mapeamento objeto-relacional (ORM) para aplicações JavaScript e TypeScript usando Node.js. Sua principal vantagem é simplificar o trabalho com bancos de dados relacionais, permitindo que desenvolvedores manipulem dados de maneira intuitiva e organizada. Com suporte para múltiplos bancos de dados e uma sintaxe de fácil utilização, o TypeORM oferece uma maneira prática de construir, consultar e gerenciar esquemas de banco de dados complexos em aplicações escaláveis.',
+    //     icon: ,
+    // },
     {
         title: 'MongoDB',
         description: 'MongoDB é um banco de dados NoSQL flexível e escalável, que utiliza um modelo de dados baseado em documentos. Com sua capacidade de lidar com grandes volumes de dados, flexibilidade na modelagem e consulta de dados, além de recursos avançados de escalabilidade e recuperação de falhas, o MongoDB é amplamente utilizado para o armazenamento eficiente e a manipulação de dados em aplicativos modernos.',
         icon: SiMongodb,
+    },
+    {
+        title: 'PostgreSQL',
+        description: 'O PostgreSQL é um sistema de gerenciamento de banco de dados relacional e objeto-relacional (ORDBMS) open-source, conhecido por sua robustez, extensibilidade e aderência a padrões SQL. Ele oferece uma ampla gama de funcionalidades avançadas, como suporte a transações ACID (Atomicidade, Consistência, Isolamento e Durabilidade), recuperação de falhas e concorrência por meio de controle multiversão (MVCC), o que garante integridade e desempenho mesmo em ambientes de alta demanda.',
+        icon: SiPostgresql,
     },
     {
         title: 'Python',

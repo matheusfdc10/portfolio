@@ -17,7 +17,7 @@ const About = () => {
                         Sobre
                     </h2>
                     <p className="text-base text-zinc-50 mt-8  text-justify">
-                        Sou um Desenvolvedor Full Stack com conhecimentos práticos em tecnologias modernas como ReactJS, NextJS, TailwindCSS, Styled-components, ExpressJS, NestJS, Prisma, MongoDB, Python e outras. Formado em Análise e Desenvolvimento de Sistemas pela Universidade Estácio de Sá. Estou constantemente buscando aperfeiçoar minhas habilidades e me atualizar com as melhores práticas. Meu objetivo é aplicar esse conhecimento em um ambiente profissional, contribuindo para o desenvolvimento de soluções eficientes e inovadoras, e crescer como profissional de tecnologia. Sou dedicado e proativo, sempre em busca de desafios que me permitam aprender e agregar valor às equipes e projetos.
+                        Sou um Desenvolvedor Full Stack com conhecimentos práticos em tecnologias modernas como ReactJS, NextJS, Angular, NestJS, PostgreSQL, MongoDB e Python e outras. Formado em Análise e Desenvolvimento de Sistemas pela Universidade Estácio de Sá. Estou constantemente buscando aperfeiçoar minhas habilidades e me atualizar com as melhores práticas. Meu objetivo é aplicar esse conhecimento em um ambiente profissional, contribuindo para o desenvolvimento de soluções eficientes e inovadoras, e crescer como profissional de tecnologia. Sou dedicado e proativo, sempre em busca de desafios que me permitam aprender e agregar valor às equipes e projetos.
                     </p>
                 </div>
             </div>
