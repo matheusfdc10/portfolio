@@ -3,6 +3,14 @@ import CardProject from "./CardProject";
 
 const list = [
     {
+        title: 'Youtube clone',
+        image: 'img-youtube-clone.png',
+        description: '',
+        urlGithub: 'https://github.com/matheusfdc10/youtube-clone',
+        urlSite: 'https://youtube-clone-nu-smoky.vercel.app',
+        topics: ['NextJS', 'Typescript', 'TailwindCSS', 'Shadcn-ui', 'Clerk', 'Drizzle-orm', 'Postgresql']
+    },
+    {
         title: 'Slack clone',
         image: 'img-slack.png',
         description: '',

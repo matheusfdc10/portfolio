@@ -44,7 +44,11 @@ const CardProject: React.FC<CardProjectProps> = ({
                     />
                     <div className="group-hover:sm:block hidden absolute z-auto w-full h-full top-0 transition-all">
                         <div className="flex gap-3 justify-center items-center h-full">
-                            <a href={data.urlGithub} target="_blank">
+                            <a href={data.urlGithub} target="_blank" 
+                                onClick={(e) => {
+                                    e.stopPropagation();
+                                }}
+                            >
                                 <div
                                     title="GitHub"
                                     className="rounded-full bg-dark-2 hover:bg-sky-300 border-2 border-sky-300 p-2 text-sky-300 hover:text-zinc-950 shadow-zinc-950 shadow-md active:scale-95 cursor-pointer"
@@ -53,7 +57,11 @@ const CardProject: React.FC<CardProjectProps> = ({
                                 </div>
                             </a>
                             {data.urlSite && (
-                                <a href={data.urlSite} target="_blank">
+                                <a href={data.urlSite} target="_blank"
+                                    onClick={(e) => {
+                                        e.stopPropagation();
+                                    }}
+                                >
                                     <div
                                         title="Site"
                                         className="rounded-full bg-dark-2 hover:bg-sky-300 border-2 border-sky-300 p-2 text-sky-300 hover:text-zinc-950 shadow-zinc-950 shadow-md active:scale-95 cursor-pointer"
